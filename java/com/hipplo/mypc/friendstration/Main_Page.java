@@ -1,5 +1,6 @@
 package com.hipplo.mypc.friendstration;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -86,19 +87,19 @@ public class Main_Page extends AppCompatActivity
         }
 
         else if (id == R.id.nav_notification) {
-
+            startActivity(new Intent(Main_Page.this,Notification.class));
         }
 
         else if (id == R.id.nav_friends) {
-
+            startActivity(new Intent(Main_Page.this,Friends.class));
         }
 
         else if (id == R.id.nav_info) {
-
+            startActivity(new Intent(Main_Page.this,Information.class));
         }
 
         else if (id == R.id.nav_packages) {
-
+            startActivity(new Intent(Main_Page.this,Packages.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
