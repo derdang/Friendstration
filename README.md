@@ -4,7 +4,8 @@
 - 2/21/2016: Major Rehaul to interface courtesy of Suggestion :D 
 
 # MAJOR UPDATE (2/21/2016 and now on)
-- Use the "java/com/hipplo/mypc/friendstration" and "res" files on this Github as all other files are no irrelevant to the project code :D 
+- Use the "java/com/hipplo/mypc/friendstration" and "res" files on this Github as all other files are now irrelevant to the project code :D 
 - Use this modified Android Manifest file to have our logo working on the emulator
 - Suggest reworking your directory to match the files posted here so there is no id conflicts
+- Make sure the files can be imported with all import libraries working 
 - The Navigation Bar is working fully now in this version though it is currently linked to "empty pages"
