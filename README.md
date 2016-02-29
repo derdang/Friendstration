@@ -4,6 +4,7 @@
 #Friendstration Event Log
 - 2/18/2016: Added files from project we can modify project name later this is just what I had worked on. 
 - 2/21/2016: Major Rehaul to interface courtesy of Suggestion :D 
+- 2/28/2016: Uploaded Screenshots of all the Work-in-Progress Pages of the App, Horray!
 
 # MAJOR UPDATE (2/21/2016 and now on)
 - Use the "java/com/hipplo/mypc/friendstration" and "res" files on this Github as all other files are now irrelevant to the project code :D 
