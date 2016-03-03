@@ -15,6 +15,35 @@
         android:text="Back Button"
         android:id="@+id/Back"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_space"
+        android:src="@drawable/ic_my"
+        android:layout_below="@+id/Back"
+        android:layout_toStartOf="@+id/Back"
+        android:layout_marginEnd="30dp"
+        android:clickable="true" />
+
+    <QuickContactBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/person"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/my_space"
+        android:layout_alignEnd="@+id/my_space"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Adam Smith"
+        android:id="@+id/name"
+        android:layout_alignBottom="@+id/person"
+        android:layout_toEndOf="@+id/person"
+        android:visibility="invisible" />
+
 </RelativeLayout>
