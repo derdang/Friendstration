@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hipplo.mypc.friendstration.Friends">
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Back Button" />
+
+    <ImageButton
+        android:id="@+id/my_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Back"
+        android:layout_marginEnd="30dp"
+        android:layout_toStartOf="@+id/Back"
+        android:clickable="true"
+        android:src="@drawable/ic_my" />
+
+    <QuickContactBadge
+        android:id="@+id/person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/person4"
+        android:layout_alignLeft="@+id/person4"
+        android:layout_alignStart="@+id/person4" />
+
+    <QuickContactBadge
+        android:id="@+id/person2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/person3"
+        android:layout_toLeftOf="@+id/name"
+        android:layout_toStartOf="@+id/name"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/person"
+        android:layout_toEndOf="@+id/person"
+        android:text="Adam Smith"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="invisible" />
+
+    <QuickContactBadge
+        android:id="@+id/person3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/person"
+        android:layout_alignLeft="@+id/person"
+        android:layout_alignStart="@+id/person"
+        android:layout_marginTop="36dp" />
+
+    <QuickContactBadge
+        android:id="@+id/person4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/person6"
+        android:layout_alignRight="@+id/my_space"
+        android:layout_alignEnd="@+id/my_space"
+        android:layout_marginTop="35dp" />
+
+    <QuickContactBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/person5"
+        android:layout_below="@+id/my_space"
+        android:layout_toLeftOf="@+id/name"
+        android:layout_toStartOf="@+id/name"
+        android:visibility="invisible"/>
+
+    <QuickContactBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/person6"
+        android:layout_below="@+id/person5"
+        android:layout_alignLeft="@+id/person5"
+        android:layout_alignStart="@+id/person5"
+        android:layout_marginTop="31dp"
+        android:visibility="invisible"/>
+
+    <QuickContactBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/person7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/person2"
+        android:layout_alignStart="@+id/person2"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Julissa Shaffer"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/person6"
+        android:layout_toRightOf="@+id/person5"
+        android:layout_toEndOf="@+id/person5"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laura Quirk"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/person6"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ryan Dickson"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/person"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mason Pierce"
+        android:id="@+id/textView"
+        android:layout_above="@+id/person2"
+        android:layout_toRightOf="@+id/person3"
+        android:layout_toEndOf="@+id/person3"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kai North"
+        android:id="@+id/textView5"
+        android:layout_alignBottom="@+id/person2"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Derrick Dang"
+        android:id="@+id/textView6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>
