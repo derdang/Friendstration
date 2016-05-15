@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Friendstration</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_notifications">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <string name="action_deep_link">
+        com.google.android.gms.samples.appinvite.DEEP_LINK_ACTION
+    </string>
+
+    <string name="invite">Send invitations!</string>
+    <string name="welcome">App Invite\nQuickstart</string>
+    <string name="referrer_hint">Deep link not provided</string>
+    <string name="deep_link_default">Deep link not set</string>
+    <string name="invitation_id_default">Invitation ID not set</string>
+    <string name="invite_friends">Invite Friends</string>
+
+    <string name="invitation_title">Send App Invite Quickstart Invitation</string>
+    <string name="invitation_message">This app is terrific, give it a try and get $5 off!</string>
+    <string name="invitation_deep_link">http://example.com/offer/five_dollar_offer</string>
+    <string name="invitation_cta">Install!</string>
+    <string name="invitation_subject">Try this great app!</string>
+
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+    <string name="invitation_id_fmt" formatted="false">Invitation ID: %s</string>
+
+    <string name="sent_invitations_fmt" formatted="false">Sent %d invitations</string>
+    <string name="send_failed">Sending invitations failed</string>
+    <string name="invite_dialog_title">You got an invitation!</string>
+
+    <string name="google_play_services_error">Google Play Services Error</string>
+    <string name="custom_invite">Custom Invite</string>
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_information">Information</string>
+    <string name="large_text">
+        "Tampons Vs. Pads \n\n"
+
+        "This decision is most often a preference choice. Each product has its benefits, but neither product has an overwhelming sum of negatives to validate not using it. The benefits of pads rests in their utter simplicity. You simply place the pad in your panties and you are ready to go. Some of the drawbacks people have with pads is that they are not always fit for every activity, especially activities involving a lot of movement. Tampons are equally as simple in application, you simply put the tampon in your vagina and it will absorb the blood before it exits your body. Tampons are widely popular because they will maintain their effectivity no matter the activity. Tampons are also much more discreet which leads many women to prefer tampons over pads. There is the common misconception that using tampons heightens your likelihood of getting urinary tract infections, but this is untrue as long as you change the tampon every 3-4 hours. Both products have equal effectivity in everyday life and many women end up using both for extra protection, but even individually the products and their safety are equivalent. \n\n"
+
+        "What is actually happening?\n\n"
+
+        "Before menses begins your body will undergo two processes. The first process is called the Follicular Phase. In this phase two main functions occur. First, the ovary supports the growth of the egg--which will cradle the egg as it descends--and second the uterus begins lining its walls in preparation for a fertilized egg. During the Follicular Phase, the ovaries receive the chemical signal to release the egg--this process is the kick-off to when you are ovulating. The following phase is the Luteal phase. In this phase the uterus maintains its lining and keeps itself prepared for the possible fertilization of the egg. If the egg is not fertilized, the egg dies and the shedding of the uterine walls begins. As the wall begins to shed all of the tissue and blood collect in small “pockets.” Once one of these pockets bursts the blood will flow out. A woman’s flow rate is essentially due to the size of the “pockets” that collect. During the shedding of the uterine walls, the body’s levels of both estrogen and progesterone drop to their absolute minimum. The cramps felt during menstruation are due to the uterine wall contracting in order to cut off blood flow to the uterus.
+\n\n"
+
+        "How to Alleviate Cramps?\n\n"
+
+        "There are many ways to help limit the pain felt during your period. The first is to apply heat to the afflicted area. Cramps are the contraction of a muscle, so applying heat to the area in pain will relax the muscle and limit the pain. The next way is to eliminate your caffeine intake. Caffeine has the chance to constrict your blood vessels which can increase the severity of your cramps during menstruation. One of the given solutions is to acquire pain relievers. Some of the best pain relievers include Advil, Motrin, Aleve, and Midol. If you are not looking for a name brand medicine the type of meds you are looking for are non-steroidal anti-inflammatory drugs. The final way we will suggest here is to go out and get exercising. Exercise increases your body’s release of happy hormones--endorphins--which often can work to counteract the pain felt during menstruation. The list goes on and on including drinking herbal teas, lying down, massaging your abdomen, and there is a list of foods that help to alleviate pain.
+\n\n"
+
+    </string>
+    <string name="god_packages">"2 chocolate bars,
+2 popcorn,15 carmel,15 kisses,\nchapstick,2 bath bombs,lotion,hot cocoa,lays,oreos,cookies"
+    </string>
+    <string name="queen_packages">"2 chocolate bars
+2 popcorn,10 carmel,10 kisses,\nchapstick,bath bomb,hot cocoa,cookies"
+    </string>
+    <string name="princess_packages">"2 chocolate bars,2 popcorn,\n15 carmel,chapstick,15 kisses,hot cocoa"
+    </string>
+</resources>
